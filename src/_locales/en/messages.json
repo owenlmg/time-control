@@ -1,0 +1,120 @@
+{
+  "appDescription": {
+    "message": "Record the access time of each website"
+  },
+  "defaultTitle": {
+    "message": "timeRecord"
+  },
+  "notificationTitle": {
+    "message": "Browse time reminder"
+  },
+  "notificationMsg": {
+    "message": "You had spent $time$ on $domain$ today",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "google.com"
+      },
+      "time": {
+        "content": "$2",
+        "example": "1 hour 20 minute"
+      }
+    }
+  },
+  "hour": {
+    "message": "hours"
+  },
+  "minute": {
+    "message": "minutes"
+  },
+  "labelHour": {
+    "message": "H"
+  },
+  "labelMinute": {
+    "message": "M"
+  },
+  "second": {
+    "message": "seconds"
+  },
+  "popupTitle": {
+    "message": "timeRecord"
+  },
+  "popupToday": {
+    "message": "today"
+  },
+  "popupAll": {
+    "message": "all"
+  },
+  "popupSite": {
+    "message": "website"
+  },
+  "popupTime": {
+    "message": "time"
+  },
+  "popupSetting": {
+    "message": "setting"
+  },
+  "popupEmptyText": {
+    "message": "No data"
+  },
+  "optionsTitle": {
+    "message": "website time setting"
+  },
+  "optionsSite": {
+    "message": "Website"
+  },
+  "optionsLimit": {
+    "message": "Action"
+  },
+  "optionsTime": {
+    "message": "Time"
+  },
+  "optionsOperate": {
+    "message": "Operate"
+  },
+  "optionsSitePlace": {
+    "message": "website，like：example.com"
+  },
+  "optionsAlert": {
+    "message": "Remind"
+  },
+  "optionsForbid": {
+    "message": "Forbid"
+  },
+  "optionsForbidTitle": {
+    "message": "Not open"
+  },
+  "optionsSave": {
+    "message": "save"
+  },
+  "optionsRemove": {
+    "message": "delete"
+  },
+  "optionsAdd": {
+    "message": "add"
+  },
+  "error": {
+    "message": "error"
+  },
+  "info": {
+    "message": "info"
+  },
+  "msgSameErr": {
+    "message": "data duplication"
+  },
+  "saveSuccess": {
+    "message": "save success"
+  },
+  "msgHourErr": {
+    "message": "Incorrect hour"
+  },
+  "msgMinuteErr": {
+    "message": "Incorrect minute"
+  },
+  "msgLostErr": {
+    "message": "Please complete"
+  },
+  "deleteSuccess": {
+    "message": "delete success"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "appDescription": {
+    "message": "控制每个网站的访问时间"
+  },
+  "defaultTitle": {
+    "message": "时间印记"
+  },
+  "notificationTitle": {
+    "message": "浏览时间提醒"
+  },
+  "notificationMsg": {
+    "message": "你今天在网站$domain$上已经花费了$time$",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "google.com"
+      },
+      "time": {
+        "content": "$2",
+        "example": "1小时20分"
+      }
+    }
+  },
+  "notificationMsg2": {
+    "message": "已经花费了"
+  },
+  "hour": {
+    "message": "小时"
+  },
+  "minute": {
+    "message": "分钟"
+  },
+  "labelHour": {
+    "message": "小时"
+  },
+  "labelMinute": {
+    "message": "分"
+  },
+  "second": {
+    "message": "秒"
+  },
+  "popupTitle": {
+    "message": "时间印记"
+  },
+  "popupToday": {
+    "message": "今天"
+  },
+  "popupAll": {
+    "message": "全部"
+  },
+  "popupSite": {
+    "message": "网址"
+  },
+  "popupTime": {
+    "message": "时间"
+  },
+  "popupSetting": {
+    "message": "设置"
+  },
+  "popupEmptyText": {
+    "message": "暂无数据"
+  },
+  "optionsTitle": {
+    "message": "网站浏览时限设置"
+  },
+  "optionsSite": {
+    "message": "网址"
+  },
+  "optionsLimit": {
+    "message": "超过浏览时间后动作"
+  },
+  "optionsTime": {
+    "message": "浏览时间限制"
+  },
+  "optionsOperate": {
+    "message": "操作"
+  },
+  "optionsSitePlace": {
+    "message": "网址，不要http，不要www，例如：example.com"
+  },
+  "optionsAlert": {
+    "message": "提醒"
+  },
+  "optionsForbid": {
+    "message": "禁止访问"
+  },
+  "optionsForbidTitle": {
+    "message": "暂不开放"
+  },
+  "optionsSave": {
+    "message": "保存"
+  },
+  "optionsRemove": {
+    "message": "删除"
+  },
+  "optionsAdd": {
+    "message": "增加一行"
+  },
+  "error": {
+    "message": "错误"
+  },
+  "info": {
+    "message": "信息"
+  },
+  "msgSameErr": {
+    "message": "相同的信息已存在"
+  },
+  "saveSuccess": {
+    "message": "保存成功"
+  },
+  "msgHourErr": {
+    "message": "小时时间填写错误"
+  },
+  "msgMinuteErr": {
+    "message": "分钟时间填写错误"
+  },
+  "msgLostErr": {
+    "message": "请填写完整信息"
+  },
+  "deleteSuccess": {
+    "message": "删除成功"
+  }
+}
