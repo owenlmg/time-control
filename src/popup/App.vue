@@ -7,7 +7,7 @@
                 <el-table :data="domains" :cell-style="{padding:5+'px'}" :empty-text="emptyText">
                     <el-table-column prop="domain" :label="site" show-overflow-tooltip width="180">
                         <template slot-scope="scope">
-                            <el-image fit="fill" :src="logo(scope.row.domain)">
+                            <el-image fit="fill" :src="logo(scope.row.domain)" lazy>
                                 <div slot="error" class="image-slot">
                                     <el-image fit="fill" src="/icons/space_page.png"></el-image>
                                 </div>
@@ -86,7 +86,8 @@
     methods: {
       logo(domain) {
         // return 'https://www.google.cn/s2/favicons?domain=' + domain;
-        return 'http://' + domain + '/favicon.ico';
+        // return 'http://' + domain + '/favicon.ico';
+        return '';
       },
       handleClick(tab) {
         if(tab.name === 'all') {

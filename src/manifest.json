@@ -21,6 +21,7 @@
   "permissions":
   [
     "notifications",
+    "tabs",
     "storage",
     "activeTab"
   ]
