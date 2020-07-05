@@ -82,7 +82,7 @@
         if (minutes > 0) {
           result += minutes + chrome.i18n.getMessage("minute")
         }
-        if (seconds > 0) {
+        if (hours === 0 && seconds > 0) {
           result += seconds + chrome.i18n.getMessage("second")
         }
         return result
